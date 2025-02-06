@@ -1,6 +1,7 @@
 public class User {
     int id;
     String name;
+    int drivingLicense;
 
     public int getId() {
         return id;
@@ -25,8 +26,4 @@ public class User {
     public void setDrivingLicense(int drivingLicense) {
         this.drivingLicense = drivingLicense;
     }
-
-    int drivingLicense;
-
-
 }
